@@ -2,22 +2,16 @@
 header{
     max-width: 1200px;
  margin: auto;
+ margin-top: 30px;
 }
 
-
-h2{
-    color:#46A358 ;
-    max-width: 1200px;
-    text-align: left;
-    margin: auto;
-    margin-top: 30px;
-}
 
 h3{
     max-width: 1200px;
     text-align: left;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
+
 }
 
 span{
@@ -30,11 +24,21 @@ section{
     margin: auto;
     text-align: left;
     background-color:#F5F5F580 ;
+    height: 450px;
 }
 
+.section1 .container1{
+    background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+    padding: 30px 15px;
+}
 
 .left{
     max-width: 600px;
+    margin-left: 30px;
+}
+
+.section1 .left{
+    display: inline-block;
 }
 
 .zagolovok{
@@ -61,11 +65,12 @@ color:#3D3D3D ;
     line-height: 20px;
     text-transform: uppercase;
     margin-top: 20px;
+    border:#46A358 ;
 }
 
 a{
- color:#3D3D3D ;
- margin-right: 26px;
+ color:#3D3D3D;
+ margin-right: 50px;
  text-decoration: none;
  font-size: 16px;
 }
@@ -77,6 +82,7 @@ a{
     color: #FFFFFF;
     font-family: Cera pro;
     border-radius: 6px;
+    border: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -86,11 +92,16 @@ margin: auto;
 
 .heade{
     display: flex;
-    margin-right: 30px;
+    margin-left: 50px;
     margin: auto;
     max-width: 1200px;
      align-items: center; 
-       justify-content: space-between;
+     
+}
+
+
+h2{
+    color:#46A358 ;
 }
 
 a:hover{
@@ -101,4 +112,30 @@ a:hover{
 
 p{
    color:#727272 ; 
+  
 }
+
+
+
+
+.navigation{
+   max-width: 1200px; 
+   margin: auto;
+}
+
+
+hr{
+    max-width: 1200px;
+    color: #ffffff;
+    font-size: 1px;
+    height: 0px;
+}
+
+
+
+
+.section1 .right{
+    display: inline-block;
+    max-width: 100%;
+}
+
