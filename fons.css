@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Cerapro';
+    font-weight: 400;
+    src: url();
+    src: local('CeraPro'), url('../lesson5/fonts/CeraPro-Black.eot'), format(CeraPro-Black)
+}
