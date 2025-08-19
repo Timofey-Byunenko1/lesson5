@@ -71,10 +71,57 @@ color:#3D3D3D ;
     margin-top: 20px;
     border:#46A358 ;
 }
+.navigation {
+   & > ul{
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin-top: 40px;
+
+  
+ > li{
+        padding-bottom: 25px;
+        border-bottom: 3px solid transparent;
+        position: relative;
+        padding-bottom: 25px;
+        text-align: left;
+
+        &:hover{
+            border-color: #46A358;
+
+         &:hover > ul {
+            display: block;
+            
+         }   
+        }
+       }
+    }
+  & > ul ul {
+    display: none;
+    z-index: 1;
+    top: 100%;
+    position: absolute;
+    padding-top: 12px;
+    right: -75px;
+    li{
+        min-width: 150px;
+        padding: 8px 14px;
+        list-style: none;
+  background-color:#EDF6EE ;
+
+    }
+  }
+
+}
+
+.a{
+    margin-right: 40px;
+}
 
 a{
  color:#3D3D3D;
- margin-right: 50px;
+ 
  text-decoration: none;
  font-size: 16px;
 }
@@ -91,6 +138,7 @@ a{
     font-size: 16px;
     line-height: 100%;
     margin: auto;
+    margin-right: auto;
 
 }
 
@@ -126,6 +174,9 @@ p{
 .navigation{
    max-width: 1200px; 
    margin: auto;
+   display: flex;
+   align-items: center;
+
 }
 
 
@@ -152,7 +203,7 @@ hr{
         margin-left: 70px;
     }
    .smail-img{
-    left: 50px;
+    left: 45px;
     bottom: 0px;
     width: 135px;
     height: 135px;
