@@ -79,7 +79,7 @@ color:#3D3D3D ;
     list-style: none;
     margin-top: 40px;
 
-  
+
  > li{
         padding-bottom: 25px;
         border-bottom: 3px solid transparent;
@@ -95,14 +95,26 @@ color:#3D3D3D ;
             
          }   
         }
+   ul{
+    display: none;
+
+    li{
+        &:hover{
+            background-color:#1A712A ;
+            color:#FFFFFF ;
+        }
+    }
+   }
+        
        }
+
     }
   & > ul ul {
-    display: none;
+    
     z-index: 1;
     top: 100%;
     position: absolute;
-    padding-top: 12px;
+    padding-top: 20px;
     right: -75px;
     li{
         min-width: 150px;
@@ -110,10 +122,32 @@ color:#3D3D3D ;
         list-style: none;
   background-color:#EDF6EE ;
 
+&:hover {
+    ul{
+        display: block;
+    
+    }
+}
+
     }
   }
 
+  > li > ul >  li > ul{
+
+z-index: 1;
+position: absolute;
+left: 100%;
+bottom: 0;
+padding-left: 4px;
+ }
+
+li{
+    max-width: 140px;
 }
+
+}
+
+
 
 .a{
     margin-right: 40px;
