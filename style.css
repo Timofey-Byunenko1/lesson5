@@ -13,6 +13,7 @@ h3{
     margin: auto;
     margin-top: 20px;
     color: #3D3D3D;
+    font-family: 'CeraPro',;
 }
 
 span{
@@ -54,7 +55,7 @@ letter-spacing: 0%;
 text-transform: uppercase;
 margin: auto;
 color:#3D3D3D ;
-
+font-family: 'CeraPro',;
 }
 
 
@@ -135,9 +136,9 @@ color:#3D3D3D ;
   > li > ul >  li > ul{
 
 z-index: 1;
-position: absolute;
+position: relative;
 left: 100%;
-bottom: 0;
+top: 0;
 padding-left: 4px;
  }
 
@@ -145,6 +146,12 @@ li{
     max-width: 140px;
 }
 
+> ul > li > ul > li > ul {
+  position: absolute;
+  top: 0;       
+  left: 83%;   
+  display: none;
+}
 }
 
 
@@ -199,7 +206,7 @@ a:hover{
 
 p{
    color:#727272 ; 
-  
+  font-family: 'CeraPro',;
 }
 
 
